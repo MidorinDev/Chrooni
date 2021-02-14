@@ -1,3 +1,11 @@
-name: Chrooni
+name: Angling
 version: ${project.version}
-main: plugin.midorin.info.chrooni.ChrooniPlugin
+main: plugin.midorin.info.angling.Angling
+author: Midorin Network Developer
+
+commands:
+  angling:
+    description: ゲーム操作コマンド
+    aliases:
+      - ang
+      - al
